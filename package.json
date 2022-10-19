@@ -1,0 +1,42 @@
+{
+  "name": "bootstrap-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "author": "https://github.com/bpsbais",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "5.2.2",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.13",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-squoosh": "^0.9.0",
+    "gulp-webp": "^4.0.1",
+    "js-yaml": "^4.1.0",
+    "panini": "^1.7.2",
+    "postcss": "^8.4.18",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.2.2",
+    "sass": "^1.55.0",
+    "yargs": "^17.6.0"
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
+  "private": true
+}
