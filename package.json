@@ -7,8 +7,29 @@
     "start": "gulp",
     "build": "gulp build --production"
   },
+  "homepage": "https://github.com/bpsbais/bootstrap-starter",
   "author": "https://github.com/bpsbais",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpsbais/bootstrap-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bpsbais/bootstrap-starter/issues"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "bootstrap-5.2.0",
+    "html-template-engine",
+    "live-reload",
+    "browser-sync"
+  ],
   "dependencies": {
     "bootstrap": "5.2.2",
     "popper.js": "^1.16.1"
