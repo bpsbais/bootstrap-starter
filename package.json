@@ -25,13 +25,13 @@
     "front-end",
     "framework",
     "web",
-    "bootstrap-5.2.0",
+    "bootstrap-5.3.0",
     "html-template-engine",
     "live-reload",
     "browser-sync"
   ],
   "dependencies": {
-    "bootstrap": "5.2.2",
+    "bootstrap": "^5.3.0-alpha1",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
@@ -58,5 +58,5 @@
   "browserslist": [
     "defaults and supports es6-module",
     "maintained node versions"
-  ],
+  ]
 }
