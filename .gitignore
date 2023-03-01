@@ -7,3 +7,6 @@ bower_components
 *.swp
 .cache
 .idea
+CHARGEBEE_ZOHO
+CHARGEBEE_ZOHO/**
+config.yml

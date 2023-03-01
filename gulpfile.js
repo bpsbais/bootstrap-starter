@@ -151,12 +151,13 @@ const reload = (done) => {
 const watch_changes = () => {
   watch(append_project_name(PROJECT, 'src/pages/**/*.html'), series(pages, reload));
   watch(append_project_name(PROJECT, 'src/{layouts,partials}/**/*.html'), series(resetPages, pages, reload));
+  watch(append_project_name(PROJECT, PATHS.assets), copy);
   watch(append_project_name(PROJECT, 'src/assets/scss/**/*.scss'), css);
   watch(append_project_name(PROJECT, 'src/assets/scss/**/*.sass'), css);
   watch(append_project_name(PROJECT, 'src/assets/img/**/*'), series(images, preserve_format, reload))
 }
 
-const build = series(clean, parallel(pages, javascript, images), preserve_format, css);
+const build = series(clean, parallel(pages, javascript, images, copy), preserve_format, css);
 
 exports.build = build;
 
